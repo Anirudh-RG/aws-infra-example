@@ -14,7 +14,7 @@ crash.log
 secret.tfvars
 
 # Ignore generated plan files
-*.tfplan
+*tfplan
 
 # Ignore IDE-specific files (optional)
 .vscode/

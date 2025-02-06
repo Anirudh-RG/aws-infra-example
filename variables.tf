@@ -9,8 +9,8 @@ variable "availability_zones" {
   type        = list(string)
   default     = [
     "ap-south-1a",
-    "ap-south-1b",
-    "ap-south-1c"
+    "ap-south-1b"
+    # only these two because t2.micro doesn't exist in ap-south-1c
   ]
 }
 
