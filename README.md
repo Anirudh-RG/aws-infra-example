@@ -3,9 +3,11 @@
 2. EC2 instances in both subnets(only in public for now)
 
 ## Issues
-1. a default sec group gets crated and alloted to instance, yet to figure out & fix, u ll need to manually add routes for ICMP & All IPv4 to connect to your instance.
-2. Output url is bugged, will fix soon, ip is right but format has tp be 192-168-.. , right now is 192.168
-3. to connect better consult the instance dns name present on aws console
+
+1. ~a default sec group gets crated and alloted to instance, yet to figure out & fix, u ll need to manually add routes for ICMP & All IPv4 to connect to your instance.~
+2. ~Output url is bugged, will fix soon, ip is right but format has tp be 192-168-.. , right now is 192.168~
+3. ~to connect better consult the instance dns name present on aws console~
+
 
 ## Guide
 files u ll need
